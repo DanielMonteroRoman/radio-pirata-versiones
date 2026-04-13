@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Montero Games</title>
+  <link rel="icon" href="../imagenes/colores sin fondo2.ico" />
+  <link rel="stylesheet" href="../estilo2.css" />
+ 
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://danielmonteroroman.github.io/portfolio/">
+    <meta property="og:title" content="Daniel Montero | Desarrollador">
+    <meta property="og:description" content="Echa un vistazo a mis proyectos.">
+    <meta property="og:image" content="https://danielmonteroroman.github.io/portfolio/imagenes/imagen curr4.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Daniel Montero | Desarrollador">
+    <meta name="twitter:description" content="Echa un vistazo a mis proyectos.">
+    <meta name="twitter:image" content="https://danielmonteroroman.github.io/portfolio/imagenes/imagen curr4.jpg">
+
+</head>
+
+<body class="dark-mode">
+  <header>
+    <section id="ham_menu" class="">
+      <button id="cerrar" class="button_ham">
+        <img src="../imagenes/Close.png" alt="" />
+      </button>
+      <div>
+        <ul>
+          <li><a href="principal.html">UN VISTAZO</a></li>
+         <!-- <li><a href="about_me.html">SOBRE MÍ</a></li>
+          <li><a href="Projects.html">PROYECTOS</a></li>-->
+          <li class="seleccionado">CONTACTO</li>
+        </ul>
+        <ul id="ham_idioma">
+          <li class="seleccionado">ES</li>
+          <li><a href="../EN/Contact.html">EN</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="cabecera">
+      <section id="hamburger">
+        <button><img src="../imagenes/ham_blanco2.png" alt="" /></button>
+      </section>
+
+      <section class="cabecera-izquierda">
+        <img src="../imagenes/con_borde.png" alt="logo monterogames" />
+      </section>
+
+      <section id="nav">
+        <ul>
+          <li><a href="principal.html">UN VISTAZO</a></li>
+          <!-- <li><a href="about_me.html">SOBRE MÍ</a></li>
+          <li><a href="Projects.html">PROYECTOS</a></li>-->
+          <li class="seleccionado">CONTACTO</li>
+        </ul>
+      </section>
+
+      <section class="cabecera-derecha" id="idiomas">
+        <ul>
+          <li class="seleccionado">ES</li>
+          <li><a href="../EN/Contact.html">EN</a></li>
+        </ul>
+      </section>
+
+      <img id="tema" src="../imagenes/circle.png" alt="boton_tema" />
+    </div>
+  </header>
+
+  <main id="contactos">
+   <section id="contacto" class="contacto">
+  <h2>Contáctanos</h2>
+  <p>¿Tienes una propuesta, proyecto o pregunta? ¡Hablemos!</p>
+
+  <form id="contact-form" action="https://formspree.io/f/mpwooozd" class="contact-form" method="POST"> <!--aquí---------------------------------------------------------------------------------------*/-->
+    
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+    <label for="email">Correo electrónico</label>
+    <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required>
+
+    <label for="message">Mensaje</label>
+    <textarea id="message" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+    <button type="submit">Enviar mensaje</button>
+
+    <p id="form-status"></p>
+  </form>
+
+
+
+</section>
+
+
+
+  </main>
+
+  <footer>
+      <section id="redes">
+        <a href="https://www.facebook.com/people/Radio-Pirata-Versiones/61585235996699/" target="_blank"
+          ><img src="../imagenes/2067d3.png" alt="facebook"
+        /></a>
+        <a href="https://www.tiktok.com/@radiopirataversiones" target="_blank"
+          ><img src="../imagenes/Iconoir_tiktok_white.svg.png" alt="tiktok"
+        /></a>
+
+        <a href="mailto:radiopirataversiones@hotmail.com" target="_blank"
+          ><img src="../imagenes/gmail.png" alt="correo"
+        /></a>
+        <a href="https://www.instagram.com/radiopirataversiones/" target="_blank"
+          ><img src="../imagenes/instagram-new.png" alt="instagram" />
+        </a>
+        <a href="https://www.youtube.com/@RadioPirataVersiones" target="_blank"
+          ><img src="../imagenes/152810s.png" alt="youtube" />
+        </a>
+      </section>
+      <address><a>radiopirataversiones@hotmail.com</a></address>
+    </footer>
+
+  <div id="overlay">
+    <img id="overlay-img" src="" alt="Imagen ampliada" />
+    <p>
+     
+    </p>
+  </div>
+   <script src="../control.js" defer></script>
+</body>
+
+</html>

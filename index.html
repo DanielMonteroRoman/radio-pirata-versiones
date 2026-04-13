@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cargando / Loading...</title>
+    <script>
+        (function() {
+            
+            var userLang = navigator.language || navigator.userLanguage; 
+            var langCode = userLang.substring(0, 2).toLowerCase();
+           
+            var spanishGroup = ['es', 'gl', 'eu', 'ca'];
+            
+            
+            if (spanishGroup.includes(langCode)) {
+                window.location.replace('./ES/principal.html');
+            } else {
+                window.location.replace('./EN/principal.html');
+            }
+        })();
+    </script>
+    <style>body{background:#111; color:#fff; display:flex; justify-content:center; align-items:center; height:100vh; font-family:sans-serif;}</style>
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://danielmonteroroman.github.io/portfolio/">
+    <meta property="og:title" content="Daniel Montero | Desarrollador/Developer">
+    <meta property="og:description" content="Echa un vistazo a mis proyectos/Check out my projects.">
+    <meta property="og:image" content="https://danielmonteroroman.github.io/portfolio/imagenes/imagen curr4.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Daniel Montero | Desarrollador/Developer">
+    <meta name="twitter:description" content="Echa un vistazo a mis proyectos/Check out my projects.">
+    <meta name="twitter:image" content="https://danielmonteroroman.github.io/portfolio/imagenes/imagen curr4.jpg">
+
+
+</head>
+<body>
+    <noscript>
+        <p>Por favor, selecciona tu idioma / Please select your language:</p>
+        <a href="./ES/principal.html">Español</a> <!--| <a href="./EN/principal.html">English</a>-->
+    </noscript>
+</body>
+</html>
