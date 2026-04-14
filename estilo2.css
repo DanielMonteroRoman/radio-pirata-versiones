@@ -474,6 +474,7 @@ header {
 }
 
 
+
 .proyectos {
   width: 100%;
   
@@ -601,6 +602,7 @@ footer {
   width: 100%;
 }
 
+
 #redes {
   display: flex;
   justify-content: center;
@@ -615,6 +617,25 @@ footer {
 
   cursor: pointer;
 }
+
+#redes_contratar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 10px;
+}
+
+#redes_contratar   img {
+  width: 70px;
+  margin-top: 10px;
+
+  cursor: pointer;
+}
+
+
+
+
 .seleccionado {
   color:var(--letrasAmarillas);
 
