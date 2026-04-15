@@ -595,6 +595,7 @@ ul li:hover {
 }
 
 footer {
+  
   background-color:var(--cabecera);
   color: var(--letrasAmarillas);
   text-align: center;
@@ -605,6 +606,7 @@ footer {
 
 #redes {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -620,6 +622,7 @@ footer {
 
 #redes_contratar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
