@@ -3,7 +3,7 @@
 {
   --cabecera: #000000e6;
   --negroFondo: #000000;
-  --blancoFondo: #f5f5ea;
+  --blancoFondo: #cccccc;
 
 
  
@@ -14,7 +14,7 @@
 
 
   --tarjetasOscuras: #171322;
-  --tarjetasClaras: #f2f2f2;
+  --tarjetasClaras: #ffffff;
 
  
 
@@ -118,7 +118,7 @@ body.dark-mode .juego {
 
 body.light-mode .juego {
   background-color: var(--tarjetasClaras);
-  border: 2px solid var(--cabecera);
+  border: 3px solid; color:#c9ae00;
  
 }
 
@@ -143,7 +143,7 @@ body.light-mode main p a:hover {
 }
 
 body.light-mode h3, body.light-mode h2{
-    color: var(--cabecera);
+    color:  rgb(143, 114, 0);
     
 }
 
@@ -511,10 +511,14 @@ header {
   width: 225px;
   height: 400px; 
 
-  padding: 30px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
   transition: transform 0.2s;
 
    border-radius: 2.5%;
+   
 
 }
 
@@ -533,6 +537,17 @@ header {
     color:#dfdede ;
     font-weight: 400;
     margin-bottom: 30px;
+}
+
+.fecha{
+  border-top: 1px solid #958520;
+  border-bottom: 1px solid #958520;
+}
+
+.anuncio{
+  
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .juego:hover  {
