@@ -1133,6 +1133,9 @@ main p a {
 
     
   }
+  #profile{
+    max-width: 75%;
+  }
 
 
   #ham_menu.visible{
