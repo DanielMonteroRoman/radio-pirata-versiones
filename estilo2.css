@@ -1279,6 +1279,10 @@ h1{
 
 }
 
+#profile{
+    max-width: 75%;
+  }
+
 .mensaje-exito {
   display: none;
   text-align: center;
