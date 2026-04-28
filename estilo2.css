@@ -292,7 +292,7 @@ p {
 }
 
 h1 {
-  font-size: calc(1em + 10vw);
+  /*font-size: calc(1em + 10vw);
   margin: 10px;
 
   color: var(--letrasBlancas);
@@ -303,7 +303,9 @@ h1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     
 
-   margin-bottom: 0;
+   margin-bottom: 0;*/
+
+   font-size: 0.5em;
 }
 
 
@@ -1215,7 +1217,7 @@ main p a {
     {       
         opacity: 0.5;
         top: 0px;
-        left: -100px;
+        left: -150px;
     }
 
   .cabecera-izquierda img {
@@ -1259,7 +1261,7 @@ main p a {
   }
 
    .title {
-  width: 150%;    
+  width: 125%;    
 
 }
 
@@ -1269,13 +1271,15 @@ main p a {
 @media screen and (max-width: 750px) {
 
 h1{
-    font-size: 45px;
-  }
+  display:flex;
+  justify-self: right;
+  
+  }}
 
   h2{
 
-    font-size: 27px;
-  }
+    font-size: 25px;
+  
 
 }
 
