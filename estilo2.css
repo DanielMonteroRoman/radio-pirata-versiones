@@ -7,7 +7,7 @@
 
 
  
-  --letrasAmarillas: #f6d46d;
+  --letrasAmarillas: #e2bb2b;
 
   --letrasBlancas: #f1f1f1;
   --letrasNegras: #191919;
@@ -39,6 +39,10 @@ html {
   
 }
 
+b {
+ color: #9b7a02;
+  font-weight: 500;
+}
 
 html {
   scroll-behavior: smooth;
@@ -89,7 +93,7 @@ html.dark-mode body, body.dark-mode {
   background: var(--negroFondo);
 }
 
-body.light-mode p, body.light-mode h1 {
+body.light-mode p {
   color: var(--negroFondo);
 }
 
@@ -305,7 +309,9 @@ h1 {
 
    margin-bottom: 0;*/
 
+   
    font-size: 15px;
+   
 }
 
 
@@ -1136,7 +1142,8 @@ main p a {
     
   }
   #profile{
-    max-width: 75%;
+    max-width: 50%;
+    
   }
 
 
@@ -1217,7 +1224,7 @@ main p a {
     {       
         opacity: 0.5;
         top: 0px;
-        left: -150px;
+        left: -175px;
     }
 
   .cabecera-izquierda img {
