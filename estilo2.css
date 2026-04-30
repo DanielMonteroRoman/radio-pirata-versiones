@@ -64,11 +64,10 @@ section, article {
 
 
 
-
 body.light-mode #presentacion {
   background-image:
-  linear-gradient(var(--blancoFondo), rgba(255, 255, 255, 0.50),  var(--blancoFondo), var(--blancoFondo)),
-  url("imagenes/prueba_fondo.gif");
+  linear-gradient(var(--blancoFondo), rgba(255, 255, 255, 0.150),  var(--blancoFondo), var(--blancoFondo)),
+  url("imagenes/fondo3.gif");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
@@ -78,8 +77,8 @@ body.light-mode #presentacion {
 
 body.dark-mode #presentacion {
  background-image:
-  linear-gradient(var(--negroFondo), rgba(0, 0, 0, 0.50), var(--negroFondo), var(--negroFondo)),
-  url("imagenes/prueba_fondo.gif");
+  linear-gradient(var(--negroFondo), rgba(0, 0, 0, 0.50), var(--negroFondo)),
+  url("imagenes/fondo3.gif");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
@@ -157,15 +156,6 @@ body.dark-mode h3, body.dark-mode h2{
     color:var(--letrasAmarillas);
 }
 
-body.light-mode #profile
-{
-     filter: drop-shadow(5px 5px 5px rgb(174, 174, 174));
-}
-
-body.dark-mode #profile
-{
-     filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
-}
 
 body.dark-mode #timeline .derecha p
 {
