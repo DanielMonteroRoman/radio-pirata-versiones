@@ -472,7 +472,7 @@ header {
 
 
 #profile {
-  width: 50%;  
+  width: 1000%;  
 
   max-width: 500px;
 
@@ -1094,7 +1094,7 @@ main p a {
 
 /*Media Query*/
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1100px) and (orientation: portrait) {
   #hamburger {
     display: flex;
    
@@ -1142,7 +1142,7 @@ main p a {
     
   }
   #profile{
-    max-width: 50%;
+    max-width: 75%;
     
   }
 
@@ -1214,11 +1214,14 @@ main p a {
         margin-right: 30px;
         margin-left: 30px; 
     }
+
     
     #descripcion img
     {
         width: 100%;
     }
+
+    
 
     #tema
     {       
