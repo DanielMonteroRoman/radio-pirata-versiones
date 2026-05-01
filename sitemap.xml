@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Página principal (Español) -->
+    <url>
+        <loc>https://danielmonteroroman.github.io/radio-pirata-versiones/index.html</loc>
+        <lastmod>2026-05-01</lastmod>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Página de Contratación (Español) -->
+    <url>
+        <loc>https://danielmonteroroman.github.io/radio-pirata-versiones/ES/contratar.html</loc>
+        <lastmod>2026-05-01</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Página Principal (Inglés) -->
+    <url>
+        <loc>https://danielmonteroroman.github.io/radio-pirata-versiones/EN/main.html</loc>
+        <lastmod>2026-05-01</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Página de Contratación/Contacto (Inglés) -->
+    <url>
+        <loc>https://danielmonteroroman.github.io/radio-pirata-versiones/EN/contact.html</loc>
+        <lastmod>2026-05-01</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>
