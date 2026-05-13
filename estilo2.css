@@ -3,7 +3,7 @@
 {
   --cabecera: #000000e6;
   --negroFondo: #000000;
-  --blancoFondo: #cccccc;
+  --blancoFondo: #eae9e9;
 
 
  
@@ -23,7 +23,7 @@
    
 }
 html {
-  background-color: #2e2b39; /* mismo que var(--negroFondo) */
+  background-color: #1e0088; /* mismo que var(--negroFondo) */
   color: #f1f1f1;
 }
 
@@ -66,7 +66,7 @@ section, article {
 
 body.light-mode #presentacion {
   background-image:
-  linear-gradient(var(--blancoFondo), rgba(255, 255, 255, 0.150),  var(--blancoFondo), var(--blancoFondo)),
+  linear-gradient(var(--blancoFondo), rgba(255, 255, 255, 0.2), var(--blancoFondo)),
   url("imagenes/fondo4.gif");
   background-repeat: no-repeat;
   background-size:cover;
@@ -549,31 +549,33 @@ header {
   margin-top: 10px;
 }
 
-.juego:hover  {
-  transform: scale(1.02); /* 100/90 ≈ 1.11 */
- cursor: pointer;
-  filter: drop-shadow(0px 10px 7px rgb(130, 130, 130));
+.juego:not(.inactivo):hover  {
+  transform: scale(1.01); /* 100/90 ≈ 1.11 */
+  cursor: pointer;
+  filter: drop-shadow(0px 3px 3px rgb(99, 99, 99));
+  
+}
+.juego.inactivo:not(.proximamente) {
+  cursor:default; /* Ponemos el ratón de "prohibido" en vez de la manita */
   
 }
 
 /* --- ESTILOS SOLO PARA EL EVENTO INACTIVO --- */
 
 /* 1. Lo hacemos un poco transparente para que parezca apagado */
-.juego.inactivo {
-  opacity: 0.5; 
+.juego.proximamente {
+  opacity: 0.6; 
+  cursor: not-allowed; /* Ponemos el ratón de "prohibido" en vez de la manita */
 }
 
 /* 2. Anulamos los efectos de tu hover normal */
 .juego.inactivo:hover {
   transform: none; /* Quitamos el scale(1.02) */
-  cursor: not-allowed; /* Ponemos el ratón de "prohibido" en vez de la manita */
+  /*cursor: not-allowed;  Ponemos el ratón de "prohibido" en vez de la manita */
   filter: none; /* Quitamos la sombra (drop-shadow) */
 }
 
-/* 3. Evitamos que el H4 cambie de color a amarillo/dorado */
-.juego.inactivo:hover h4 {
-  color: #dfdede; /* Lo forzamos a quedarse en su color gris original */
-}
+
 
 .juego p {
   
@@ -581,8 +583,8 @@ header {
   text-align: left ;
 }
 
-.juego:hover h4 {
-  color: #f6d46d;
+.juego:not(.inactivo):hover h3 {
+  color: #d3a314;
 }
 
 header p {
